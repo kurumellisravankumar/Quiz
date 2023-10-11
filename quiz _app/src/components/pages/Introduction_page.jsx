@@ -9,7 +9,7 @@ const Introduction_page = () => {
   return (
     <>
       <Header />
-      <Intro_content/>
+      <Intro_content_/>
     </>
   );
 };
@@ -35,17 +35,24 @@ export const Header = () => {
   );
 };
 
-export const Intro_content = () => {
-<>
-    {
-        Intro_content.map((intro_C,index)=>{
-            return(
-              <div className= "Q_container">
-                <h2>{Intro_content.Intro_content_text_center}</h2>
-                </div>
-            )
-        })
-    }
-</>
+// export const Intro_content_ = () => {
+// <>
+//     {
+//         Intro_content.map((intro_C,index)=>{
+//             return(
+//               <div className= "Q_container">
+//                 <h2>{Intro_content.Intro_content_text_center}</h2>
+//                 </div>
+//             )
+//         })
+//     }
+// </>
 
+// }
+
+
+export const Intro_content=()=>{
+    <>
+    
+    </>
 }

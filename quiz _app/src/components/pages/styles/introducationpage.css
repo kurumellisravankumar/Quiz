@@ -1,0 +1,22 @@
+.Quiz_header{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 50px;
+    background: rgb(0, 0, 0);
+
+}
+
+.Quiz_header .Q_logo img{
+    width: 200px;
+}
+.Quiz_header .Q_title{
+color: #ffffff;
+}
+
+.Q_container{
+    width: 80%;
+    margin: 0 auto;
+}

@@ -1,0 +1,74 @@
+.quiz_header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 50px;
+    background: rgb(0, 0, 0);
+    gap: 2rem;
+    color: #fff;
+}
+
+.quiz_header .Quiz__logo img {
+    width: 200px;
+
+}
+
+
+.quiz_container {
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Q_S_btn {
+    width: 100%;
+    padding: 5px 20px;
+    display: flex;
+    gap: 1rem;
+}
+
+.Q_S_btn button {
+    padding: 8px 20px;
+    background: #0004ff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+.Q_S_btn button a {
+    color: #fff;
+}
+
+.single_select_question_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 20px;
+}
+.marks_time{display: flex;
+gap: 0.5rem;
+align-items: center;}
+
+.single_select_question_container button {
+    background: #0400ff;
+    color: #fff;
+    border: none;
+    height: 40px;
+    outline: none;width: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+.single_select_question_container .positive_four_marks{
+    background: rgb(1, 175, 1);
+    width: 40px;
+
+}
+.single_select_question_container .negitive_marks{
+    background: rgb(175, 1, 1);
+    width: 40px;
+}

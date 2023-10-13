@@ -27,7 +27,7 @@ const db = mysql.createConnection({
 app.get("/", (req, res) => {
   console.log("hello");
   console.log("DB connected");
-  const sql = "SELECT * FROM quiz_table";
+  const sql = "SELECT * FROM quiz_table where id=1";
   db.query(sql, (err, data) => {
     if (err) return res.json(err);
     return res.json(data);

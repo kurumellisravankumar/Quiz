@@ -45,12 +45,6 @@ export const Left_Quiz = () => {
   const [savenext, setSaveNext] = useState("save&next");
 const [activeQ,setActiveQ]=useState()
   const handlesave_next = () => {
-    if(activeQ!==data.length-1){
-      setActiveQ((pre)=>pre+1);
-    }
-
-
-
 
     if (count < 30) {
       // ---------------question count increment up to  30 ---------------------------------------
@@ -163,6 +157,7 @@ const [activeQ,setActiveQ]=useState()
 export const Q_Q_A = () => {
 
   const [data, setData] = useState([]);
+  
 
     useEffect(() => {
 

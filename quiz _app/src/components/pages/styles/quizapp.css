@@ -20,14 +20,14 @@
 
     width: 100%;
     display: grid;
-    grid-template-columns: 50% 50%;
-    justify-content: center;
+    grid-template-columns: 70% 25%;
+    /* justify-content: center; */
     align-items: center;
 }
 
 .Q_S_btn {
     width: 100%;
-    padding: 5px 20px;
+    padding: 8px 20px;
     display: flex;
     gap: 1rem;
 }
@@ -48,27 +48,74 @@
 .single_select_question_container {
     display: flex;
     justify-content: space-between;
-    padding: 3px 20px;
+    padding: 20px;
+
 }
-.marks_time{display: flex;
-gap: 0.5rem;
-align-items: center;}
+
+.marks_time {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
 
 .single_select_question_container button {
     background: #0400ff;
     color: #fff;
     border: none;
     height: 40px;
-    outline: none;width: 200px;
+    outline: none;
+    width: 200px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
 }
-.single_select_question_container .positive_four_marks{
+
+.single_select_question_container .positive_four_marks {
     background: rgb(1, 175, 1);
     width: 40px;
 
 }
-.single_select_question_container .negitive_marks{
+
+.single_select_question_container .negitive_marks {
     background: rgb(175, 1, 1);
     width: 40px;
+}
+
+.Q_qustions {
+    padding: 0 60px;
+}
+
+.Q_Anwser {
+    padding: 0 60px;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.Q_control_buttons {
+    display: flex;
+    padding: 20px 60px;
+    justify-content: space-between;
+}
+
+.Q_control_buttons>div {
+    display: flex;
+    gap: 1rem;
+}
+
+.Q_control_buttons button {
+    padding: 0.8rem;
+    background: #0400ff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 12px;
+}
+
+.Q_control_buttons button a {
+    color: #fff;
+    font-size: 0.7rem;
+}
+
+.Q_Right_container{
+    
 }
